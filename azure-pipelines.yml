@@ -24,7 +24,7 @@ stages:
       displayName: Build an image
       inputs:
         containerRegistry: 'Docker registry'
-        repository: 'myazuredevops-cicd'
+        repository: 'yashsingh83/myazuredevops-cicd'
         command: 'buildAndPush'
         Dockerfile: '**/Dockerfile'
         tags: '$(tag)'
